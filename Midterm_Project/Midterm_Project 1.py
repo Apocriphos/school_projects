@@ -42,7 +42,8 @@ list2.append(h_0548)
 
 # Inputting the unknown point's traverse angles
 for j in range(list1[0], len(list1)):
-    j = float(input("Enter the traverse angle of(grad)                : "))
+    print("Enter the traverse angle of", j,"(grad)             :", end=" ")
+    j = float(input())
     list2.append(j)
 # Inputting the unknown point's traverse angles
 
